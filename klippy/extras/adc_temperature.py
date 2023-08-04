@@ -277,6 +277,7 @@ DefaultVoltageSensors = [
 ]
 
 DefaultResistanceSensors = [
+    ("PT100", calc_pt100(100.)),
     ("PT1000", calc_pt100(1000.))
 ]
 
